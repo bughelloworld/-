@@ -1,0 +1,40 @@
+/*
+Error: Invalid GBK character "\xE4"
+        on line 37 of C:\Users\alice\Documents\mmbuy\sass\ParitySearch.scss
+
+32:                 padding: 12px;
+33:                 >img {
+34:                     max-height: 34px;
+35:                 }
+36:             }
+37:         } //主体区域
+38:         #main {
+39:             // 搜索框
+40:             .searchBar {
+41:                 height: 50px;
+42:                 background-color: #fff;
+
+Backtrace:
+C:\Users\alice\Documents\mmbuy\sass\ParitySearch.scss:37
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1320:in `block in find_encoding_error'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each_with_index'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `find_encoding_error'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:896:in `check_sass_encoding'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:423:in `check_encoding!'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:379:in `_to_tree'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/anzhuangsoftware/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/anzhuangsoftware/Koala/bin/sass:18:in `load'
+D:/anzhuangsoftware/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE4\"\A         on line 37 of C:\Users\alice\Documents\mmbuy\sass\ParitySearch.scss\A \A 32:                 padding: 12px;\A 33:                 >img {\A 34:                     max-height: 34px;\A 35:                 }\A 36:             }\A 37:         } //主体区域\A 38:         #main {\A 39:             // 搜索框\A 40:             .searchBar {\A 41:                 height: 50px;\A 42:                 background-color: #fff;"; }
